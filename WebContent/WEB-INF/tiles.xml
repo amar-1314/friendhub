@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+       
+       
+<tiles-definitions>  
+
+       <definition name="homeLayout" template="/WEB-INF/pages/homeLayout.jsp">  
+        <put-attribute name="header" value="/WEB-INF/pages/headerHome.jsp"></put-attribute>  
+        <put-attribute name="footer" value="/WEB-INF/pages/footer.jsp"></put-attribute>  
+    </definition>
+    
+  
+ <definition name="editProfile" extends="homeLayout">  </definition> 
+ <definition name="contacts" extends="homeLayout"></definition>
+        
+    
+    
+ <definition name="accountSettings" extends="homeLayout">  
+        
+    </definition>  
+
+<definition name="allusers" extends="homeLayout">  
+        
+    </definition> 
+
+    
+    <definition name="workDetails" extends="homeLayout">  
+        
+    </definition> 
+      <definition name="OTP" extends="homeLayout">  
+        
+    </definition> 
+
+<definition name="profilePicture" extends="homeLayout">  
+        
+    </definition> 
+    
+ <definition name="uploadPictures" extends="homeLayout">  
+        
+    </definition> 
+
+<definition name="educationDetails" extends="homeLayout">  
+        
+    </definition> 
+    <definition name="accountBlocked" extends="homeLayout">  
+        
+    </definition> 
+
+
+<definition name="allUsersTemplate" extends="homeLayout">  
+        
+
+    </definition> 
+    
+    <definition name="privacySettings" extends="homeLayout">  
+        
+    </definition> 
+    <definition name="loginFail" extends="homeLayout">  
+        
+    </definition>   
+
+	<definition name="workProfileTemplate" extends="homeLayout"></definition>
+	
+	<definition name="chatTemplate" extends="homeLayout"></definition>
+	
+	 <definition name="work" extends="homeLayout"></definition>
+	 <definition name="education" extends="homeLayout"></definition>
+	  <definition name="family" extends="homeLayout"></definition>
+	  <definition name="friends" extends="homeLayout"></definition>
+	<definition name="friendView" extends="homeLayout"></definition>
+
+</tiles-definitions>
+
+
